@@ -1,0 +1,55 @@
+
+
+<!-- 
+DEFINITION:
+Video in HTML is used to display video files on a web page
+using the <video> tag.
+-->
+
+<!-- 
+SYNTAX:
+<video controls autoplay muted loop poster="image.jpg">
+    <source src="video-file.mp4" type="video/mp4">
+</video>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Video</title>
+</head>
+
+<body>
+
+    <h1>HTML Video</h1>
+
+    <!-- Video example with attributes -->
+    <video width="400" controls autoplay muted loop poster="poster.jpg">
+        <source src="sample.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+    <!-- 
+    EXPLANATION OF ATTRIBUTES:
+
+    <video>  → Video tag used to embed video
+
+    controls → Shows play, pause, volume, fullscreen controls
+
+    autoplay → Video starts playing automatically
+               (Works only when muted in most browsers)
+
+    muted → Video audio is muted by default
+
+    loop → Video repeats automatically after ending
+
+    poster → Image shown before video starts playing
+
+    width → Sets the width of the video player
+
+    <source> → Specifies the video file path and format
+    -->
+
+</body>
+</html>

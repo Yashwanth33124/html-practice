@@ -1,0 +1,172 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms - All Actions</title>
+</head>
+
+<body>
+
+    <!-- 
+    FORM TOPIC EXPLANATION:
+
+    HTML forms are used to collect user input
+    and send the data to a server.
+    -->
+
+    <!-- 
+    FORM ATTRIBUTES (IMPORTANT):
+
+    action        → URL where form data is sent
+    method        → How data is sent (GET / POST)
+    target        → Where to display response
+    enctype       → How form data is encoded
+    autocomplete  → Auto fill ON/OFF
+    novalidate    → Disable browser validation
+    -->
+
+    <h3>HTML Form - All Actions</h3>
+
+    <form 
+        action="submit.html"
+        method="post"
+        target="_self"
+        enctype="application/x-www-form-urlencoded"
+        autocomplete="on"
+        novalidate
+    >
+        <!-- 
+        action="submit.html"
+        → Form data is sent to submit.html
+
+        method="post"
+        → Data is sent securely (not visible in URL)
+
+        target="_self"
+        → Response opens in same tab
+
+        enctype="application/x-www-form-urlencoded"
+        → Default encoding for form data
+
+        autocomplete="on"
+        → Browser remembers user input
+
+        novalidate
+        → Disables HTML validation
+        -->
+
+        <!-- TEXT INPUT -->
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <!-- 
+        type="text" → Text input
+        required → Field must be filled
+        -->
+
+        <br><br>
+
+        <!-- EMAIL INPUT -->
+        <label>Email:</label>
+        <input type="email" name="email">
+        <!-- 
+        type="email" → Accepts valid email format
+        -->
+
+        <br><br>
+
+        <!-- PASSWORD INPUT -->
+        <label>Password:</label>
+        <input type="password" name="password">
+        <!-- 
+        type="password" → Hides characters
+        -->
+
+        <br><br>
+
+        <!-- NUMBER INPUT -->
+        <label>Age:</label>
+        <input type="number" min="1" max="100">
+        <!-- 
+        min / max → Limits number range
+        -->
+
+        <br><br>
+
+        <!-- RADIO BUTTON -->
+        <label>Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <!-- 
+        Radio → Only one option selectable
+        -->
+
+        <br><br>
+
+        <!-- CHECKBOX -->
+        <input type="checkbox" required> I agree to terms
+        <!-- 
+        Checkbox → Multiple selections allowed
+        -->
+
+        <br><br>
+
+        <!-- DROPDOWN -->
+        <label>Course:</label>
+        <select name="course">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select>
+        <!-- 
+        select → Dropdown list
+        option → Dropdown values
+        -->
+
+        <br><br>
+
+        <!-- FILE UPLOAD -->
+        <label>Upload File:</label>
+        <input type="file">
+        <!-- 
+        type="file" → Upload file
+        -->
+
+        <br><br>
+
+        <!-- TEXTAREA -->
+        <label>Message:</label><br>
+        <textarea rows="4" cols="30"></textarea>
+        <!-- 
+        textarea → Multi-line input
+        -->
+
+        <br><br>
+
+        <!-- SUBMIT BUTTON -->
+        <button type="submit">Submit</button>
+        <!-- 
+        type="submit" → Sends form data
+        -->
+
+        <!-- RESET BUTTON -->
+        <button type="reset">Reset</button>
+        <!-- 
+        type="reset" → Clears all fields
+        -->
+
+    </form>
+
+    <!-- 
+    SUMMARY:
+
+    GET  → Data visible in URL
+    POST → Data hidden (secure)
+
+    submit → Sends data
+    reset  → Clears data
+    -->
+
+</body>
+</html>

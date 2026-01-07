@@ -1,0 +1,87 @@
+<!-- 
+DEFINITION:
+<div> and <span> are container elements in HTML
+used to group and style content.
+-->
+
+<!-- 
+SYNTAX:
+<div>Block content</div>
+<span>Inline content</span>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Span and Div</title>
+
+    <style>
+        /* Styling for demonstration */
+        .box {
+            border: 2px solid blue;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Span and Div</h1>
+
+    <!-- DIV EXAMPLE -->
+    <div class="box">
+        <h2>This is a div</h2>
+        <p>Div is a block-level element.</p>
+        <p>It starts on a new line.</p>
+    </div>
+
+    <!-- 
+    DIV EXPLANATION:
+    <div> is a block-level element
+    It takes full width
+    It always starts on a new line
+    Used for layout and structure
+    -->
+
+    <!-- SPAN EXAMPLE -->
+    <p>
+        This is a <span class="highlight">span element</span>
+        inside a paragraph.
+    </p>
+
+    <!-- 
+    SPAN EXPLANATION:
+    <span> is an inline element
+    It does not start a new line
+    It takes only required width
+    Used to style small parts of text
+    -->
+
+    <hr>
+
+    <!-- DIFFERENCE BETWEEN DIV AND SPAN -->
+    <!-- 
+    DIFFERENCE:
+
+    div  → Block-level element
+    span → Inline element
+
+    div  → Starts on new line
+    span → Does not start on new line
+
+    div  → Takes full width
+    span → Takes only content width
+
+    div  → Used for layout
+    span → Used for text styling
+    -->
+
+</body>
+</html>

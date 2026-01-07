@@ -1,0 +1,47 @@
+
+
+<!-- 
+DEFINITION:
+Audio in HTML is used to play sound files on a web page
+using the <audio> tag.
+-->
+
+<!-- 
+SYNTAX:
+<audio controls autoplay muted loop>
+    <source src="audio-file.mp3" type="audio/mpeg">
+</audio>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Audio</title>
+</head>
+
+<body>
+
+    <h1>HTML Audio</h1>
+
+    <!-- Audio example with attributes -->
+    <audio controls autoplay muted loop>
+        <source src="sample.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+
+    <!-- 
+    EXPLANATION OF ATTRIBUTES:
+
+    controls → Shows play, pause, volume controls
+
+    autoplay → Audio starts playing automatically
+               (Most browsers require muted to allow autoplay)
+
+    muted → Audio is muted by default
+
+    loop → Audio plays again automatically after ending
+    -->
+
+</body>
+</html>

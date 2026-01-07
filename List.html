@@ -1,0 +1,143 @@
+
+
+<!-- 
+DEFINITION:
+Lists in HTML are used to display a group of related items
+in an ordered or unordered format.
+-->
+
+<!-- 
+TYPES OF LISTS:
+1. Unordered List (<ul>)
+2. Ordered List (<ol>)
+3. Description List (<dl>)
+-->
+
+<!-- 
+SYNTAX:
+
+<ul>
+    <li>Item</li>
+</ul>
+
+<ol>
+    <li>Item</li>
+</ol>
+
+<dl>
+    <dt>Term</dt>
+    <dd>Description</dd>
+</dl>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Lists</title>
+</head>
+
+<body>
+
+    <h1>HTML Lists</h1>
+
+    <!-- UNORDERED LIST -->
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ul>
+
+    <!-- 
+    EXPLANATION:
+    <ul> → Unordered list
+    <li> → List item
+    Displays items with bullets
+    -->
+
+    <hr>
+
+    <!-- ORDERED LIST -->
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Wake up</li>
+        <li>Brush</li>
+        <li>Exercise</li>
+    </ol>
+
+    <!-- 
+    EXPLANATION:
+    <ol> → Ordered list
+    <li> → List item
+    Displays items with numbers
+    -->
+
+    <hr>
+
+    <!-- ORDERED LIST WITH TYPE -->
+    <h2>Ordered List (Type)</h2>
+    <ol type="A">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- 
+    type attribute:
+    1 → Numbers
+    A → Capital letters
+    a → Small letters
+    I → Roman numbers
+    -->
+
+    <hr>
+
+    <!-- DESCRIPTION LIST -->
+    <h2>Description List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Markup language for web pages</dd>
+
+        <dt>CSS</dt>
+        <dd>Used for styling web pages</dd>
+    </dl>
+
+    <!-- 
+    EXPLANATION:
+    <dl> → Description list
+    <dt> → Term
+    <dd> → Description
+    -->
+
+    <hr>
+
+    <!-- NESTED LIST -->
+    <h2>Nested List</h2>
+    <ul>
+        <li>Frontend
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </li>
+        <li>Backend</li>
+    </ul>
+
+    <!-- 
+    Nested list means list inside another list
+    -->
+
+    <hr>
+
+    <!-- DIFFERENCE BETWEEN LIST TYPES -->
+    <!-- 
+    DIFFERENCE:
+
+    Unordered List (<ul>) → Bullet points
+    Ordered List (<ol>)   → Numbers or letters
+    Description List (<dl>) → Term & description format
+    -->
+
+</body>
+</html>
