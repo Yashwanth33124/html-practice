@@ -129,6 +129,97 @@ Each HTML file demonstrates a core HTML concept:
 - Submit and reset buttons
 
 ---
+🔹 Flexbox.html
+
+CSS Flexbox layout module
+
+One-dimensional layout (row / column)
+
+Flex container and flex items
+
+Common properties:
+
+display: flex
+
+flex-direction
+
+justify-content
+
+align-items
+
+align-content
+
+flex-wrap
+
+Child properties:
+
+flex-grow
+
+flex-shrink
+
+flex-basis
+
+Used for:
+
+Navbar layouts
+
+Centering elements
+
+Responsive page structures
+
+🔹 Transformation.html
+
+CSS transform property
+
+Used to change the shape, position, and rotation of elements
+
+Transform functions:
+
+translate()
+
+translateX(), translateY()
+
+scale()
+
+scaleX(), scaleY()
+
+rotate()
+
+skew()
+
+Applied mainly on hover effects
+
+Helps create interactive UI elements
+
+🔹 Animation.html
+
+CSS animations using @keyframes
+
+Creating smooth motion effects without JavaScript
+
+Animation properties:
+
+animation-name
+
+animation-duration
+
+animation-delay
+
+animation-iteration-count
+
+animation-direction
+
+animation-timing-function
+
+Examples include:
+
+Loading animations
+
+Moving boxes
+
+Color transitions
+
+Improves user experience and visual appeal
 
 ## 🎯 Purpose of This Repository
 
@@ -158,4 +249,5 @@ Each HTML file demonstrates a core HTML concept:
 **Yashwanth**
 
 Learning frontend development step by step 🚀
+
 
