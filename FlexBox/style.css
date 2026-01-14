@@ -1,0 +1,32 @@
+
+
+ .box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+ }
+
+ #box1{
+    background-color: aqua;
+ }
+ #box2{
+    background-color: rgb(8, 0, 255);
+ }
+ #box3{
+    background-color: rgb(255, 221, 0);
+ }
+ #box4{
+    background-color: rgb(255, 0, 89);
+ }
+
+ .container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    flex-wrap: wrap;
+    column-gap: 3em;
+    row-gap: 1em;
+
+ }
